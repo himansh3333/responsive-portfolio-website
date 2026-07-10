@@ -17,24 +17,26 @@
 <li><a href="services.html">Services</a></li>
 <li><a href="contact.html">Contact</a></li>
 </ul>
+<button id="theme-toggle">🌙</button>
 </nav>
 </header>
 
 <section class="hero">
 <h1>Contact Us</h1>
 
-<form>
-<input type="text" placeholder="Your Name"><br><br>
-<input type="email" placeholder="Your Email"><br><br>
-<textarea placeholder="Your Message"></textarea><br><br>
-<button type="submit">Send Message</button>
-<input type="text" placeholder="Your Name" required>
+<form id="contactForm">
 
-<input type="email" placeholder="Your Email" required>
+    <input type="text" id="name" placeholder="Your Name" required>
 
-<textarea placeholder="Your Message" rows="5" required></textarea>
+    <input type="email" id="email" placeholder="Your Email" required>
+
+    <input type="tel" id="phone" placeholder="Your Phone Number" required>
+
+    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+
 </form>
-
 <h2>Our Location</h2>
 
 <iframe
@@ -63,6 +65,7 @@ allowfullscreen>
 <footer>
 <p>&copy; 2026 My Website</p>
 </footer>
-
+<script src="script.js"></script>
+</body>
 </body>
 </html>
