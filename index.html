@@ -12,13 +12,16 @@
 <header>
     <nav>
         <h2><span>HB</span> Portfolio</h2>
-
+<div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <button id="theme-toggle">🌙</button>
     </nav>
 </header>
 <main>
@@ -31,7 +34,58 @@ Building responsive, scalable and user-focused websites with modern design princ
         <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Coding Banner">
         <a href="services.html" class="btn">Explore Services</a>
     </section>
+<section class="slider">
 
+    <img id="slider" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="Slider Image">
+
+    <div class="slider-buttons">
+        <button onclick="prevSlide()">❮</button>
+        <button onclick="nextSlide()">❯</button>
+    </div>
+
+</section>
+<section class="stats">
+
+    <div class="stat">
+        <h2 class="counter" data-target="120">0</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat">
+        <h2 class="counter" data-target="85">0</h2>
+        <p>Happy Clients</p>
+    </div>
+
+    <div class="stat">
+        <h2 class="counter" data-target="5">0</h2>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+<section class="popup-section">
+
+    <button id="openModal" class="btn">
+        Learn More
+    </button>
+
+</section>
+
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <span id="closeModal">&times;</span>
+
+        <h2>Welcome!</h2>
+
+        <p>
+            Thank you for visiting our website.
+            We build modern, responsive and user-friendly websites using HTML, CSS and JavaScript.
+        </p>
+
+    </div>
+
+</div>
     <section class="services">
         <h2>Our Services</h2>
 
@@ -96,5 +150,7 @@ Building responsive, scalable and user-focused websites with modern design princ
     <p>&copy; 2026 My Website | All Rights Reserved.</p>
     
 </footer>
+<button id="topBtn">↑</button>
+<script src="script.js"></script>
 </body>
 </html>
