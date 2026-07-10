@@ -30,14 +30,5 @@ style.css
 README.md
 ```
 
-## 🚀 Future Improvements
-- JavaScript Interactive Components
-- Dark/Light Mode
-- Image Slider
-- Form Validation
-- Weather App
-- Todo List
-- Performance Optimization
-
 ## 👨‍💻 Author
 Developed by Himansh Bhagi# responsive-portfolio-website
