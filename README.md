@@ -31,4 +31,4 @@ README.md
 ```
 
 ## 👨‍💻 Author
-Developed by Himansh Bhagi# responsive-portfolio-website
+Developed by Himansh Bhagi
