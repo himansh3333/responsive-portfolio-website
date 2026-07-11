@@ -39,14 +39,6 @@ A modern responsive multi-page portfolio website built using HTML5, CSS3, and Va
 - script.js
 - README.md
 
-## 🌐 Live Demo
-
-https://himansh3333.github.io/responsive-portfolio-website/
-
-## 📁 GitHub Repository
-
-https://github.com/himansh3333/responsive-portfolio-website
-
 ## 👨‍💻 Author
 
 Developed by Himansh Bhagi
