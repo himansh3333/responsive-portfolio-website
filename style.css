@@ -251,7 +251,7 @@ nav ul li{
 .card{
     width:90%;
     margin:15px auto;
-    }
+}
 
 .gallery img{
     width:90%;
@@ -507,7 +507,7 @@ h2{
 .dark-mode .why-us h2,
 .dark-mode .testimonials h2{
     color:white;
-    }
+}
 
 .dark-mode .card p,
 .dark-mode .why-us p,
@@ -711,4 +711,4 @@ nav ul li{
 .dark-mode .modal-content{
     background:#1f2937;
     color:white;
-    }
+}
