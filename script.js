@@ -24,24 +24,26 @@ if (themeToggle) {
 
 const topBtn = document.getElementById("topBtn");
 
+if(topBtn){
+
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-        topBtn.style.display = "block";
-    } else {
-        topBtn.style.display = "none";
-    }
+    topBtn.style.display = window.scrollY > 300 ? "block" : "none";
 });
 
 topBtn.addEventListener("click", () => {
     window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+        top:0,
+        behavior:"smooth"
     });
 });
+
+}
 // Hamburger Menu
 
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.querySelector("nav ul");
+
+if(menuToggle){
 
 menuToggle.addEventListener("click", () => {
 
@@ -65,6 +67,9 @@ document.querySelectorAll("nav ul li a").forEach(link=>{
     });
 
 });
+
+}
+
 // Form Validation
 
 const form = document.getElementById("contactForm");
@@ -196,7 +201,9 @@ const observer = new IntersectionObserver((entries) => {
 
 });
 
-observer.observe(statsSection);
+if(statsSection){
+    observer.observe(statsSection);
+}
 // Modal Popup
 
 const modal=document.getElementById("modal");
